@@ -15,13 +15,13 @@ const precoEtanol = 3.98;
 const precoGasolina = 4.59;
 const consumoKm = 10;
 const distanciaViagem = 100;
-const tipoCombustivel = 'gasolina';
+const tipoCombustivel = 'etanol';
 
 
 const consumoMedio = distanciaViagem / consumoKm;
 
 
-if (tipoCombustivel === 'Etanol') {
+if (tipoCombustivel === 'etanol') {
     const valorGasto = consumoMedio * precoEtanol;
     console.log(valorGasto.toFixed(2));
 
